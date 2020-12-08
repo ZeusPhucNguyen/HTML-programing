@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List,Table and Form</title>
+    <style type="text/css">
+        body{
+            font-family: Arial, Verdana, sans-serif;
+            color: #676767;
+            padding-left: 5px;
+        }
+        #list{
+            padding-left: 25px;
+        }
+        table{
+            border: 1px #cbd2d8;
+            width: auto;
+            border-collapse: collapse;
+        }
+        #place{
+            background-color: #91b4d6;
+            color: #ffffff;
+            border-bottom: 5px solid #749ABE;
+            padding: 25px;
+            width:auto;
+            text-shadow:  0px -1px 0px #ffffff;
+        }
+        td,th {
+            padding: 10px;
+        }
+        tr,td,th {
+            border: 1px solid #cbd2d8;
+        }
+        #list1{
+            background-color: #e0e9f0;
+            border: 1px solid #cbd2d8;
+        }
+        #list2{
+            background-color: #e8eff5;
+        }
+        #Form{
+            width: 30%;
+            padding-top: 30px;
+        }
+        #submit{
+            padding-top: 10px;
+            padding-left: 250px;
+        }
+        #a{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+<h1>Poetry Workshops</h1>
+<p>We will be conducting a number of poetry workshops and symposiums throughout the year.</p>
+<p>Please note that the following events are free to members:</p>
+<div id="list">
+<p><img src="images-poetry/icon-plus.png" width="12" height="12" alt="icon"/> A Poetic Perspective</p>
+<p><img src="images-poetry/icon-plus.png" width="12" height="12" alt="icon"/> Walt Whitman at War</p>
+<p><img src="images-poetry/icon-plus.png" width="12" height="12" alt="icon"/> Found Poems and Outsider Poetry</p>
+</div>
+<div id="table">
+<table width="900">
+    <tr id="place">
+        <th></th>
+        <th>New York</th>
+        <th>Chicago</th>
+        <th>San Francisco</th>
+    </tr>
+    <tr id="list1">
+        <th>A Poetic Perspective</th>
+        <td>Sat, 4 Feb 2021<br/>11am - 2pm</td>
+        <td>Sat, 3 Mar 2021<br/>11am - 2pm</td>
+        <td>Sat, 17 Mar 2021<br/>11am - 2pm</td>
+    </tr>
+    <tr id="list2">
+        <th>Walt Whitman at War</th>
+        <td>Sat, 7 Apr 2021<br/>11am - 1pm</td>
+        <td>Sat, 5 May 2021<br/>11am - 1pm</td>
+        <td>Sat, 19 May 2021<br/>11am - 1pm</td>
+    </tr>
+    <tr id="list1">
+        <th>Found Poems & Outsider Poetry</th>
+        <td>Sat, 9 Jun 2021<br/>11am - 2pm</td>
+        <td>Sat, 7 Jui 2021<br/>11am - 2pm</td>
+        <td>Sat, 21 Jui 2021<br/>11am - 2pm</td>
+    </tr>
+    <tr id="list2">
+        <th>Natural Death:An Exploration</th>
+        <td>Sat, 4 Aug 2021<br/>11am - 4pm</td>
+        <td>Sat, 8 Sep 2021<br/>11am - 4pm</td>
+        <td>Sat, 15 Sep 2021<br/>11am - 4pm</td>
+    </tr>
+</table>
+</div>
+<div id="Form">
+    <form action="#">
+<fieldset>
+    <legend><i>Register your interest</i></legend>
+    <label><p>Your name:<input type="text" name="name" id="a"/></p></label>
+    <label><p>Your email:<input type="email" name="email" id="a"/></p></label>
+    <label><p>Your closest center:<select name="instruments" size="1">
+        <option value="New York" selected="selected">New York</option>
+        <option value="Ha Noi">Ha Noi</option>
+        <option value="Tokyo">Tokyo</option>
+    </select>
+    </p>
+    </label>
+    <label><p>Are you a member?
+    <input type="radio" name="choice" value="yes"/>Yes
+    <input type="radio" name="choice" value="no" />No
+    </p>
+    </label>
+</fieldset>
+    </form>
+</div>
+    <div id="submit">
+    <input type="submit" value="Register"/>
+</div>
+</body>
+</html>
