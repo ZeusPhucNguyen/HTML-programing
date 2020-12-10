@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5Layout</title>
+    <style type="text/css">
+        body {
+            font-family: Georgia, Times, serif;
+            font-size: 14px;
+            word-wrap: break-word;
+            background-image: url("images/dark-wood.jpg");
+            border: 2px solid black;
+            color: #676767;
+        }
+
+        #main{
+            width: 1000px;
+            padding: 0;
+            margin-left:auto;
+            margin-right: auto;
+        }
+        #head{
+            height: 130px;
+            background-color: #F5F5F5;
+            margin-top: 100px;
+
+        }
+        #head-link{
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: #afada9;
+            clear: both;
+        }
+        #left{
+            width: 700px;
+            min-height: 682px;
+            border: 1px solid #CDCDCD;
+            float: left;
+            background-color: white;
+        }
+
+        #right{
+            width:296px;
+            min-height: 682px;
+            border: 1px solid #CDCDCD;
+            float: right;
+            background-color: white;
+        }
+        #footer{
+            height: 30px;
+            clear: both;
+            border: 1px solid #CDCDCD;
+            background-color: #afada9;
+            color: white;
+            padding-left: 20px;
+            padding-bottom: 15px;
+
+        }
+        #head-link{
+            overflow: hidden;
+            Display: block;
+            Margin: auto;
+        }
+        #head-link a{
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        #head-link a:hover{
+            color:black;
+        }
+        figure{
+            border: 1px solid #eeeeee;
+          float: left;
+        }
+        #anh1{
+            float: left;
+        }
+        #anh2{
+            float: left;
+        }
+        #link{
+            text-decoration: none;
+            color: #de6782;
+            font-size:25px;
+        }
+        #link2{
+            color: #de6782;
+        }
+        #link1{
+            text-decoration: none;
+            color: #de6782;
+            font-size: 20px;
+            padding: 10px 10px 10px 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <div id="head">
+    <img src="images/header.jpg" width="1000" height="130" alt="logo">
+    </div>
+    <div id="head-link">
+        <a href="#">home</a>
+        <a href="#">classes</a>
+        <a href="#">catering</a>
+        <a href="#">about</a>
+        <a href="#">contact</a>
+    </div>
+    <div id="left">
+        <div id="anh1">
+        <figure><img src="images/bok-choi.jpg" height="190" width="290"><br/>
+            <figcaption>Bok Choi</figcaption>
+        </figure>
+        <div id="text">
+            <h1>Japanese Vegetarian</h1>
+            <a href="#" id="link">Five week course in London</a>
+            <p>A five week introduction to traditional Japanese vegetarian meals,teaching you a selection of rice and noodle dishes.</p>
+        </div>
+        </div>
+        <div id="anh2">
+        <figure><img src="images/teriyaki.jpg" height="190" width="290"><br/>
+            <figcaption>Teriyaki Sauce</figcaption>
+        </figure>
+            <div id="text">
+            <h1>Sauces Masterclass</h1>
+            <a href="#" id="link">One day workshop</a>
+            <p>An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cokkery.</p>
+        </div>
+        </div>
+    </div>
+    <div id="right">
+        <h1 id="link2">Popular Recipes</h1>
+        <ul>
+            <li><a href="#" id="link1">Yakitori(grilled chicken)</a></li>
+            <li><a href="#" id="link1">Tsukune(minced chicken patties)</a></li>
+            <li><a href="#" id="link1">Okonomiyaki(savory pancakes)</a></li>
+            <li></li>
+        </ul>
+        <p><a href="#" id="link1">Yakitori(grilled chicken)</a></p>
+        <p><a href="#" id="link1">Tsukune(minced chicken patties)</a></p>
+        <p><a href="#" id="link1">Okonomiyaki(savory pancakes)</a></p>
+        <p><a href="#" id="link1">Mizutaki(chickenstew)</a></p>
+
+    </div>
+    <div id="footer">
+        <p>&copy; 2020 Yoko's Kitchen &copy;</p>
+    </div>
+</div>
+</body>
+</html>
